@@ -5,16 +5,11 @@ import TodoList from "./components/TodoList";
 
 import {
   Typography,
-  ButtonGroup,
-  Button,
   Container,
   Switch,
   FormControlLabel,
-  Box,
   useTheme,
 } from "@mui/material";
-
-import { useAppSelector, useAppDispatch } from "./hooks/redux";
 
 const App: FC = () => {
   console.log("App");
